@@ -5,7 +5,7 @@ export interface ButtonProps {
 }
 
 const Button = (props: ButtonProps) => {
-  return <button>{props.label}</button>;
+  return <button style={{padding: 12, backgroundColor: '#066858', color: 'white', borderRadius: 8, border: 'none', fontWeight: 600}}>{props.label}</button>;
 };
 
 export default Button

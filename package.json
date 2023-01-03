@@ -2,21 +2,37 @@
   "name": "randmar-social",
   "version": "0.0.1",
   "scripts": {
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "description": "Component library for Randmar Social",
   "author": "Abdullah Raja",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.20.7",
     "@rollup/plugin-commonjs": "^24.0.0",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-typescript": "^10.0.1",
+    "@storybook/addon-actions": "^6.5.15",
+    "@storybook/addon-essentials": "^6.5.15",
+    "@storybook/addon-interactions": "^6.5.15",
+    "@storybook/addon-links": "^6.5.15",
+    "@storybook/builder-webpack5": "^6.5.15",
+    "@storybook/manager-webpack5": "^6.5.15",
+    "@storybook/react": "^6.5.15",
+    "@storybook/testing-library": "^0.0.13",
     "@types/react": "^18.0.26",
+    "babel-loader": "^8.3.0",
     "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rollup": "^3.9.1",
     "rollup-plugin-dts": "^5.1.0",
     "tslib": "^2.4.1",
     "typescript": "^4.9.4"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
