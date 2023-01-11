@@ -1,6 +1,6 @@
 {
   "name": "@randmar/veloui",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "scripts": {
     "rollup": "rollup -c",
     "storybook": "start-storybook -p 6006",
@@ -23,11 +23,13 @@
     "@storybook/react": "^6.5.15",
     "@storybook/testing-library": "^0.0.13",
     "@types/react": "^18.0.26",
+    "@types/styled-components": "^5.1.26",
     "babel-loader": "^8.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rollup": "^3.9.1",
     "rollup-plugin-dts": "^5.1.0",
+    "styled-components": "^5.3.6",
     "tslib": "^2.4.1",
     "typescript": "^4.9.4"
   },

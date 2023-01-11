@@ -15,6 +15,6 @@ export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Primary.args = {
   title: "Store Name",
-  content: "This is a store description",
+  subtitle: "This is a store description",
   style: {maxWidth: 500}
 };
