@@ -46,12 +46,13 @@ const StyledButton = styled.button<StyleProps>`
 `
 
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  children?: React.ReactNode
   variant: 'plain' | 'filled' | 'outlined' | 'tinted'
   fullWidth?: boolean
 }
 
-const Button = ({ variant, fullWidth, ...props }: ButtonProps) => {
-  return <StyledButton variant={variant} {...props} style={{width: fullWidth ? '100%' : undefined}} />
+const Button = ({ children, variant, fullWidth, ...props }: ButtonProps) => {
+  return <StyledButton variant={variant} {...props} style={{width: fullWidth ? '100%' : undefined}}>{children}</StyledButton>
 };
 
 export default Button

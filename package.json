@@ -1,6 +1,6 @@
 {
   "name": "@randmar/veloui",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "scripts": {
     "rollup": "rollup -c",
     "storybook": "start-storybook -p 6006",
